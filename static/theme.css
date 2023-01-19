@@ -1,0 +1,31 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+}
+
+input[type="text"], input[type="password"], button {
+  padding: 0.5rem;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+}
+
+button {
+  border: 1px solid var(--success);
+  background-color: var(--success-light);
+}
+
+a {
+  text-decoration: unset;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  background-color: var(--background);
+}
+
+.p1 {
+  padding: 1rem;
+}
