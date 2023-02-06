@@ -17,6 +17,17 @@ export async function login(email, password) {
     name: userDoc?.name,
     phone: userDoc?.phone,
     currency: userDoc?.currency,
+    groups: userDoc?.groups,
+  });
+
+  console.log({
+    accessToken: user.accessToken,
+    email: user.email,
+    uid: user.uid,
+    name: userDoc?.name,
+    phone: userDoc?.phone,
+    currency: userDoc?.currency,
+    groups: userDoc?.groups,
   });
   return user;
 }

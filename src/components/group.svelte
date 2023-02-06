@@ -6,7 +6,7 @@
   <div class="banner">
     <img src="/images/banner.webp" alt="Group banner.">
     <div class="group-title">
-      <span>{group.name}</span>
+      <span>{group.title}</span>
     </div>
   </div>
   <div class="info">

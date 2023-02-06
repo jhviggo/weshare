@@ -15,7 +15,7 @@
       {/each}
     {/await}
   </div>
-  <div class="payment-actions p1">
+  <div class="payment-actions pad-m">
     <button>Add</button>
     <button>Pay</button>
   </div>

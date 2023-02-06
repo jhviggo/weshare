@@ -6,8 +6,8 @@
   import { userStore } from '../store';
 </script>
 
-<div class="container p1">
-  {#await getGroups($userStore.uid)}
+<div class="container pad-m">
+  {#await getGroups($userStore.groups)}
     <Spinner></Spinner>
   {:then groups} 
     <div class="groups">

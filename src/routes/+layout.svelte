@@ -10,10 +10,11 @@
       loggedIn = true;
     }
   });
+
 </script>
 
 {#if !loggedIn}
-  <div class="p1">
+  <div class="pad-m">
     <Login></Login>
   </div>
 {:else}
